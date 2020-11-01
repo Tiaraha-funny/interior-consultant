@@ -1,0 +1,20 @@
+{
+  "name": "interior-consultant",
+  "version": "1.0.0",
+  "description": "Practising the css by using sass and bem for class names",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiaraha-funny/interior-consultant.git"
+  },
+  "author": "Peta Jeannie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiaraha-funny/interior-consultant/issues"
+  },
+  "homepage": "https://github.com/Tiaraha-funny/interior-consultant#readme"
+}
