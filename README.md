@@ -1,76 +1,18 @@
 # Responsive Challenge : Interior Consultant
 
-Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:
+1- Feature for the mobile
 
-![image](./interior1.png)
-![image](./interior2.png)
+![image](./interior-mobile.png)
 
--   User story: I can see a page following the given design
--   User story: On mobile, I can see a collapsed navigation
--   User story: On mobile, when I select the hamburger menu, I can see a navigation
--   Technical requirement : use **BEM** notation with **SASS** to practice your skills
+2- Feature for the desktop
 
+![image](./interior-desktop.png)
+
+## **Source** 
 Icon: https://google.github.io/material-design-icons/
 
 [Check the design link here](https://www.figma.com/file/3cf83hHRBAGjG5EKPcG2bV)
 
-As long as you fulfill all the user stories, you can give your personal touches by adding transition, using your own images, changing colors, or even creating your own layout,...
-
-Once you completed, submit your solutions by providing URLs for both GitHub repository and live app on Netlify and explain briefly what you have done.
-
-Good luck everybody!
-
-Template for your readme :
-
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
-
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
--   [Overview](#overview)
-    -   [Built With](#built-with)
--   [Features](#features)
--   [How to use](#how-to-use)
--   [Contact](#contact)
--   [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
--   Where can I see your demo?
--   What was your experience?
--   What have you learned/improved?
--   Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
--   [React](https://reactjs.org/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 ## How To Use
 
@@ -96,5 +38,5 @@ $ npm start
 ## Contact
 
 -   Website [your-website.com](https://{your-web-site-link})
--   GitHub [@your-username](https://{github.com/your-usermame})
+-   GitHub [@your-username](https://github.com/tiarah-funny)
 -   Twitter [@your-twitter](https://{twitter.com/your-username})

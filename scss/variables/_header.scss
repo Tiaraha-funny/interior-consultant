@@ -28,17 +28,10 @@ body > [type="checkbox"]:checked ~ nav > button {
   visibility: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   body > header > label,
   body > header > p {
     display: none;
   }
 
-  body > header {
-    padding: 1.25rem;
-  }
-
-  .title {
-    display: none;
-  }
 }

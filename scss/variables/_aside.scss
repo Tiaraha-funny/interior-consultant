@@ -1,0 +1,51 @@
+.information {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+}
+
+.information__content {
+    background-color:  #181719;
+    width: 70%;
+    position: absolute; 
+    top: 80%;   
+    right: 40px; 
+}
+
+.information__details {
+    width: 50%;
+}
+
+.information__details::before {
+    content: "";
+    display: block;
+    background-image: url("../images/smile_girl.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.information__more--detailed {
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+
+.information__detailed--Aliza {
+    font-weight: 700;
+}
+@media (min-width: 1440px) {
+.information__content {
+    background-color: #181719;
+    width: 70%;
+    position: absolute;
+    top: 90%;
+    right: 40px;
+}
+
+}

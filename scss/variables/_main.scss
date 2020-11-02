@@ -1,0 +1,50 @@
+main {
+    padding: 5px;
+}
+
+.main__headings {
+  font-size: 36px;
+  font-family: "Lora";
+  margin-bottom: 24px;
+}
+.main__headings {
+    font-weight: 300;
+}
+
+.main__description {
+  font-family: Montserrat;
+  font-size: 16px;
+  width: 50%;
+  color: rgb(200, 199, 199);
+}
+
+.main__info {
+    font-family: "Montserrat";
+    font-style: SemiBold;
+    font-size: 16px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    background-color:  #181719;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+
+.main__info img {
+    width: 2rem;
+    padding-left: 2rem;
+}
+
+@media (min-width: 1440px) {
+    article.main {
+        display: flex;
+        flex-direction: row;
+    }
+    .main__description {
+        width: 76%;
+        font-size: 24px;
+    }
+}
