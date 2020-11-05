@@ -1,5 +1,5 @@
 main {
-    padding: 150px 0;
+    padding: 10px;
 }
 
 .main__headings {
@@ -45,5 +45,9 @@ main {
     .main__description {
         width: 76%;
         font-size: 24px;
+    }
+
+    main {
+        padding: 150px 0;
     }
 }
