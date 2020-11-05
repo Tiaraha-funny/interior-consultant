@@ -45,7 +45,7 @@ body {
   font-family: "Lora";
   background-color: #181719;
   color: #ffffff;
-  padding: 10px;
+  padding: 50px;
   margin: 0; }
 
 h1 {
@@ -86,7 +86,9 @@ body > [type="checkbox"]:checked ~ nav > button {
 @media (min-width: 1440px) {
   body > header > label,
   body > header > p {
-    display: none; } }
+    display: none; }
+  .headings {
+    padding: 50px; } }
 
 .dropdown_trigger {
   width: 3rem;
@@ -97,7 +99,7 @@ body > [type="checkbox"]:checked ~ nav > button {
   background-size: 2rem;
   background-repeat: no-repeat;
   position: absolute;
-  top: 40px;
+  top: 90px;
   right: 0; }
 
 .navigation {
@@ -114,7 +116,8 @@ body > [type="checkbox"]:checked ~ nav > button {
   z-index: 1; }
 
 .list__menu_dropdown li {
-  list-style: none; }
+  list-style: none;
+  padding-right: 35px; }
 
 .navigation a {
   font-family: "Montserrat";
@@ -158,7 +161,8 @@ body > [type="checkbox"]:checked ~ nav > button {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 60px; }
   .main__description {
     min-width: 250px; }
   .navigation__close {
@@ -170,11 +174,10 @@ body > [type="checkbox"]:checked ~ nav > button {
     margin-left: 2rem; } }
 
 main {
-  padding: 5px; }
+  padding: 150px 0; }
 
 .main__headings {
   font-size: 36px;
-  font-family: "Lora";
   margin-bottom: 24px; }
 
 .main__headings {
@@ -254,4 +257,6 @@ main {
     width: 70%;
     position: absolute;
     top: 90%;
-    right: 40px; } }
+    right: 40px; }
+  .information {
+    padding-top: 55px; } }

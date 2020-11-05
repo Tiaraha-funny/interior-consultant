@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
 
   position: absolute;
-  top: 40px;
+  top: 90px;
   right: 0;
 }
 
@@ -28,6 +28,7 @@
 
 .list__menu_dropdown li {
   list-style: none;
+  padding-right: 35px;
 }
 
 .navigation a {
@@ -78,6 +79,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin-top: 60px;
   }
 
   .main__description {
